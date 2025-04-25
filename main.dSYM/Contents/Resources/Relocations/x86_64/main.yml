@@ -1,0 +1,10 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     main
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _read_memory, symObjAddr: 0x0, symBinAddr: 0x100003800, symSize: 0xB0 }
+  - { offsetInCU: 0x9D, offset: 0x9D, size: 0x8, addend: 0x0, symName: _read_memory, symObjAddr: 0x0, symBinAddr: 0x100003800, symSize: 0xB0 }
+  - { offsetInCU: 0x119, offset: 0x119, size: 0x8, addend: 0x0, symName: _get_stack_pointer, symObjAddr: 0xB0, symBinAddr: 0x1000038B0, symSize: 0x150 }
+  - { offsetInCU: 0x1BA, offset: 0x1BA, size: 0x8, addend: 0x0, symName: _inspect_stack, symObjAddr: 0x200, symBinAddr: 0x100003A00, symSize: 0x160 }
+  - { offsetInCU: 0x26B, offset: 0x26B, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x360, symBinAddr: 0x100003B60, symSize: 0x205 }
+...
